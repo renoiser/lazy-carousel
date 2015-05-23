@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Lazy Carousel by RL</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+  <link rel="stylesheet" href="components/lazy-carousel/css/lazy-carousel.css">
+
+  <style>
+
+
+
+  .wrapper {
+    max-width: 900px;
+    margin:0 auto;
+    padding: 0 2%;
+  }
+
+
+  h1 {
+    margin-bottom: 4px;
+    position: relative;
+    padding-bottom: 32px;
+    padding-left: 92px;
+    padding-top: 16px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  #ico {
+    display: block;
+    width: 20px;
+    left: 0;
+    top: 3px;
+    width: 74px;
+    position: absolute;
+  }
+
+  h1 span {
+    font-weight: lighter;
+    display: block;
+    font-size: 20px;
+    color: #666;
+  }
+
+  section {
+    margin: 0 auto;
+  }
+
+  section h2 {
+    color: #666;
+    font-size: 20px;
+  }
+
+  section.large {
+    max-width: 900px;
+  }
+
+  section.small {
+    max-width: 500px;
+  }
+
+  p.pre {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    color: #666;
+
+  }
+
+
+  </style>
+
+
+
+
+</head>
+<body>
+  
+ 
+
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+
+
+  <div class="wrapper">
+
+   <h1>
+    <svg id="ico" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<path id="picture-box-icon" d="M287.939,239.845l-41.083,52.16l-22.326-20.567l-58.992,58.968h189.923L287.939,239.845
+   M187.015,216.99c-13.678,0-24.773,9.919-24.773,22.141c0,12.24,11.096,22.146,24.773,22.146c13.7,0,24.788-9.906,24.788-22.146
+  C211.803,226.909,200.715,216.99,187.015,216.99 M317.036,356.528l-26.55,27.083h-68.062l-26.628-27.083H50.06H50l15,97.674h381
+  l16-97.674h-0.06H317.036z M423.685,133.298H86.521l-4-30h345.164L423.685,133.298z M401.435,82.798H111.521l-4-25h297.914
+  L401.435,82.798z M74.048,331.528L60.583,155.065h390l-13.846,176.463h-40.495l9.341-137.463h-301l10.341,137.463H74.048z"/>
+</svg>
+
+    LAZY RESPONSIVE CAROUSEL <span>Angular.js directive by RL</span>
+  </h1>
+
+
+
+  <p class="pre">
+    Directive for instantiate a responsive lazy loading carousel from a JSON. Available as bower component for your project. <br/>
+
+  </p>
+
+  <section class="large animated fadeIn">
+
+    <h2>Lazy Carousel Directive #1</h2>
+    
+    <div id="lazy-1" lazy-carousel data-source="components/lazy-carousel/data/items.json"></div>
+
+  </section>
+
+  <section class="small animated fadeIn">
+
+    <h2>Lazy Carousel Directive #2</h2>
+
+    <div id="lazy-2" lazy-carousel data-source="components/lazy-carousel/data/heros.json"></div>
+
+  </section>
+
+
+
+  </div>
+
+    
+
+
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+
+  <script src="app.js"></script>
+
+  <script src="components/lazy-carousel/lazy-carousel.module.js"></script>
+  <script src="components/lazy-carousel/lazy-carousel.controller.js"></script>
+  <script src="components/lazy-carousel/lazy-carousel.directive.js"></script>
+  <script src="components/lazy-carousel/lazy-carousel.service.js"></script>
+
+
+</body>
+</html>

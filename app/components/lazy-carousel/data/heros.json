@@ -1,0 +1,29 @@
+{
+  "items" : [
+    {
+      "img": "http://res.cloudinary.com/buddahbelly/image/upload/v1423072364/brilliantbritz/angular-js.png",
+      "alt" : "Angular JS framework"
+    },
+    {
+      "img": "http://yeoman.io/assets/img/illustration-home-inverted.1f86.png",
+      "alt" : "Yeoman!"
+    },
+    {
+      "img": "http://bower.io/img/bower-logo.png",
+      "alt" : "I'm a bird, my name is Bower"
+    },
+    {
+      "img": "https://lh5.googleusercontent.com/-mrFw71M_puI/VE5722ZV70I/AAAAAAAABsE/p4DW4sTySLs/s640-no/nodejs-512%5B1%5D.png",
+      "alt" : "Node.js"
+    },
+    {
+      "img": "https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png",
+      "alt" : "Hey, Github is here!"
+    },
+    {
+      "img": "http://devstickers.com/assets/img/pro/jv81.png",
+      "alt" : "slurp! gulp!"
+    }
+    
+  ]
+}

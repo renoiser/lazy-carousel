@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Lazy Carousel by RL</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+  <link rel="stylesheet" href="components/lazy-carousel/css/lazy-carousel.css">
+
+  <style>
+    h1 { text-align: center; font-weight: bold; }
+    h1 span { font-weight: lighter; display: block; font-size: 20px; }
+    section { margin: 0 auto; text-align: center; }
+    section h2 { }
+    section.large { max-width: 900px; }
+    section.medium { max-width: 800px; }
+
+  </style>
+
+
+
+
+</head>
+<body ng-app="myApp">
+  
+ 
+    <div lazy-carousel data-source="components/lazy-carousel/data/items.json"></div>
+
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+
+  <script src="app.js"></script>
+
+
+  
+  <script src="components/lazy-carousel/lazy-carousel.module.js"></script>
+  <script src="components/lazy-carousel/lazy-carousel.controller.js"></script>
+  <script src="components/lazy-carousel/lazy-carousel.directive.js"></script>
+  <script src="components/lazy-carousel/lazy-carousel.service.js"></script>
+
+
+</body>
+</html>
