@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Lazy Carousel by RL</title>
+  <title>Lazy Loading Responsive Carousel by RL</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -16,64 +16,76 @@
   <style>
 
 
-
-  .wrapper {
-    max-width: 900px;
-    margin:0 auto;
-    padding: 0 2%;
-  }
-
-
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+h1 {
+  margin-bottom: 4px;
+  position: relative;
+  padding-bottom: 32px;
+  padding-left: 92px;
+  padding-top: 16px;
+  font-weight: bold;
+  font-size: 25px;
+}
+#ico {
+  display: block;
+  width: 20px;
+  left: 0;
+  top: 3px;
+  width: 74px;
+  position: absolute;
+}
+h1 span {
+  font-weight: lighter;
+  display: block;
+  font-size: 20px;
+  color: #666;
+}
+section {
+  margin: 0 auto;
+}
+section h2 {
+  color: #666;
+  font-size: 20px;
+}
+section.large {
+  max-width: 900px;
+}
+section.small {
+  max-width: 500px;
+}
+p.pre {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  color: #666;
+}
+@media only screen and (max-width:400px) {
   h1 {
-    margin-bottom: 4px;
-    position: relative;
-    padding-bottom: 32px;
-    padding-left: 92px;
-    padding-top: 16px;
-    font-weight: bold;
-    font-size: 25px;
+    text-align: center;
+    padding: 0 0 20px;
   }
-
   #ico {
-    display: block;
-    width: 20px;
-    left: 0;
-    top: 3px;
-    width: 74px;
-    position: absolute;
-  }
-
-  h1 span {
-    font-weight: lighter;
-    display: block;
-    font-size: 20px;
-    color: #666;
-  }
-
-  section {
+    width: 34%;
+    max-width: 34%;
+    position: static;
     margin: 0 auto;
   }
 
+  h1 span {
+    font-size: 14px;
+  }
+
+  p.pre {text-align: center}
+
   section h2 {
-    color: #666;
-    font-size: 20px;
+    text-align: center;
+    font-size: 14px;
   }
-
-  section.large {
-    max-width: 900px;
-  }
-
-  section.small {
-    max-width: 500px;
-  }
-
-  p.pre {
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 20px 0;
-    color: #666;
-
-  }
+}
 
 
   </style>
@@ -104,14 +116,14 @@
   L401.435,82.798z M74.048,331.528L60.583,155.065h390l-13.846,176.463h-40.495l9.341-137.463h-301l10.341,137.463H74.048z"/>
 </svg>
 
-    LAZY RESPONSIVE CAROUSEL <span>Angular.js directive by RL</span>
+    LAZY LOADING RESPONSIVE CAROUSEL <span>Angular.js directive by RL</span>
   </h1>
 
 
 
   <p class="pre">
     Directive for instantiate a responsive lazy loading carousel from a JSON. Available as bower component for your project. <br/>
-
+    <strong>See the <a target="_blank" href="https://github.com/renatolongobardi/lazy-carousel">github repository</a></strong>
   </p>
 
   <section class="large animated fadeIn">

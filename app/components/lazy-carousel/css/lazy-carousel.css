@@ -50,7 +50,7 @@
 	color: #fff;
 	text-shadow: 0px 0px 7px #626262;
 	background: rgba(0, 0, 0, 0.66);
-	padding: 10px 0;
+	padding: 2% 0;
 	margin: 0;
 	left: 5%;
 }
@@ -126,6 +126,10 @@
 
 	.lazy-caousel-wrapper {
 		height: 400px;
+	}
+
+	.lazy-element h3.title {
+		font-size: 20px;
 	}
 
 }
