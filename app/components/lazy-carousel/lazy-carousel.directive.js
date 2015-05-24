@@ -176,7 +176,7 @@ angular.module('rl.lazy-carousel')
 
 			},
 
-			templateUrl : 'components/lazy-carousel/view/lazy-carousel.html'
+		template: '\n<div class=\"lazy-caousel-wrapper\">\n\n\n\t<div class=\"lazy-carousel-overflow\">\n\n\t\t<div class=\"lazy-carousel\">\n\t\t\t\n\t\t\t<div data-index=\"{{$index}}\" class=\"lazy-element\" ng-repeat=\"item in items\" lazy-element>\n\n\t\t\t\t<div class=\"cover animated fadeIn\"><\/div>\n\n\t\t\t\t<!'+'-- loader --'+'>\n\t\t\t\t<div class=\"loader\" title=\"1\">\n\t\t\t\t  <svg version=\"1.1\" id=\"loader-1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\"\n\t\t\t\t     width=\"40px\" height=\"40px\" viewBox=\"0 0 50 50\" style=\"enable-background:new 0 0 50 50;\" xml:space=\"preserve\">\n\t\t\t\t  <path fill=\"#000\" d=\"M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z\">\n\t\t\t\t    <animateTransform attributeType=\"xml\"\n\t\t\t\t      attributeName=\"transform\"\n\t\t\t\t      type=\"rotate\"\n\t\t\t\t      from=\"0 25 25\"\n\t\t\t\t      to=\"360 25 25\"\n\t\t\t\t      dur=\"0.6s\"\n\t\t\t\t      repeatCount=\"indefinite\"\/>\n\t\t\t\t    <\/path>\n\t\t\t\t  <\/svg>\n\t\t\t\t<\/div>\n\n\t\t\t\t<h3 class=\"title animated bounceIn\">{{ item.alt }}<\/h3>\n\t\t\t<\/div>\n\n\n\n\t\t<\/div>\n\n\t\t<a class=\"lazy-next lazy-arrow\" href=\"javascript:void(0)\"><\/a>\n\t\t<a class=\"lazy-prev lazy-arrow\" href=\"javascript:void(0)\"><\/a>\n\t\t\t\n\t<\/div>\n\n\n\n<\/div>'
 		}
 
 
