@@ -1,0 +1,36 @@
+{
+  "items" : [
+    {
+      "img": "statics/images/01.jpg",
+      "alt" : "A panda says hello"
+    },
+    {
+      "img": "statics/images/02.jpg",
+      "alt" : "A little bear uh uh"
+    },
+    {
+      "img": "statics/images/03.jpg",
+      "alt" : "A evil tiger"
+    },
+    {
+      "img": "statics/images/04.jpg",
+      "alt" : "A cute cat says miao"
+    },
+    {
+      "img": "statics/images/05.jpg",
+      "alt" : "A giant whale"
+    },
+    {
+      "img": "statics/images/06.jpg",
+      "alt" : "An Elephant for you"
+    },
+    {
+     "img": "http://tigerday.org/wp-content/uploads/2013/04/tiger.jpg",
+      "alt" : "Large & remote image of a tiger (3MB)"
+    },
+    {
+     "img": "http://tigerday.org/wp-content/uploads/2013/04/tidfger.jpg",
+      "alt" : "A Failure/Error request"
+    }
+  ]
+}

@@ -1,6 +1,14 @@
 * {
   box-sizing: border-box; }
 
+  #ico {
+      fill: #FFF;
+  width: 68px;
+  position: relative;
+  top: 15px;
+  left: -16px;
+  }
+
 body {
   padding: 0;
   margin: 0;
@@ -33,6 +41,14 @@ a {
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
+
+
+  .lazy-section {
+    max-width: 64rem;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  }
 
 @media screen and (min-width: 64em) {
   .btn {
