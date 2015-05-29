@@ -4,7 +4,7 @@
     "dist/lazy-carousel.js",
     "dist/css/lazy-carousel.css"
   ],
-  "version": "v1.0-beta",
+  "version": "1.0.0-beta",
   "homepage": "https://github.com/renatolongobardi/lazy-carousel",
   "authors": [
     "Renato Longobardi"
