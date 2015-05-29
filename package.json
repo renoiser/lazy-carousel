@@ -1,7 +1,7 @@
 {
   "name": "rl-lazy-carousel",
   "private": true,
-  "version": "1.0-beta",
+  "version": "1.0.0-beta",
   "description": "Lazy Carousel Directive for AngularJS",
   "repository": {
     "type": "git",
