@@ -1,3 +1,5 @@
+[![Build Status](https://drone.io/github.com/renatolongobardi/lazy-carousel/status.png)](https://drone.io/github.com/renatolongobardi/lazy-carousel/latest)
+
 # Lazy Carousel 
 An Angular.js lazy-responsive-loading-carousel directive by RL
 ## Demo - http://renatolongobardi.github.io/lazy-carousel/
