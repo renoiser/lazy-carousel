@@ -2,7 +2,7 @@
 
 # Lazy Carousel 
 An Angular.js lazy-responsive-loading-carousel directive by RL
-## Demo - http://renatolongobardi.github.io/lazy-carousel/
+## Demo - http://renoiser.github.io/lazy-carousel/
 
 ## Installation
 
